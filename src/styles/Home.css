@@ -1,3 +1,5 @@
+
+
 .home {
   width: 100%;
   align-items: center;
@@ -13,7 +15,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #21325e;
+  background-color: #1eb5d3;
   color: #f0f0f0;
 }
 
@@ -44,7 +46,11 @@
 }
 
 .skills h1 {
-  color: #3e497a;
+  color: #0a5b6b;
+}
+
+.item h2 {
+  color: #0a5b6b;
 }
 
 .skills .list {

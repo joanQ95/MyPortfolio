@@ -3,6 +3,8 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import EmailIcon from "@material-ui/icons/Email";
 import GithubIcon from "@material-ui/icons/GitHub";
 import "../styles/Home.css";
+import Projects from "./Projects";
+import Experience from "./Experience";
 
 function Home() {
   return (
@@ -39,6 +41,8 @@ function Home() {
           </li>
         </ol>
       </div>
+      <Projects />
+      <Experience />
     </div>
   );
 }

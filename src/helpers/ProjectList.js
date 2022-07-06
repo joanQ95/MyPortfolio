@@ -8,21 +8,21 @@ export const ProjectList = [
     image: Proj1,
     skills: "JavaScript,HTML,CSS",
     deploy: 'https://foodrecipes-kappa.vercel.app/',
-    githubUrl: ''
+    githubUrl: 'https://github.com/joanQ95/food'
   },
   {
     name: "Jon Offer App",
     image: Proj2,
-    skills: "React,Node.js,MongoDB",
-    deploy: '',
-    githubUrl: ''
+    skills: "React, Node.js, MongoDB",
+    deploy: 'https://proyecto-final-nu.vercel.app/',
+    githubUrl: 'https://github.com/juanpabloCamus/Proyecto-Final'
   },
   {
     name: "Fish Counting",
     image: Proj3,
     skills: "Python, OpenCV",
     deploy: '',
-    githubUrl: ''
+    githubUrl: 'https://github.com/joanQ95/FishCouting'
   },
   
 ];

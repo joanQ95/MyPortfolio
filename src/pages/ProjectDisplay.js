@@ -14,7 +14,7 @@ function ProjectDisplay() {
       <p>
         <b>Skills:</b> {project.skills}
       </p>
-      <GitHubIcon />
+      <GitHubIcon onClick={event =>  window.location.href=project.githubUrl}/>
     </div>
   );
 }
