@@ -1,15 +1,18 @@
 import React, { useEffect, useState } from "react";
-import { Link, useLocation } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import "../styles/Navbar.css";
 import ReorderIcon from "@material-ui/icons/Reorder";
+import { Link } from 'react-scroll'
 
 function Navbar() {
   const [expandNavbar, setExpandNavbar] = useState(false);
 
   const location = useLocation();
+  const myRef = []
 
   useEffect(() => {
     setExpandNavbar(false);
+    window.scrollTo(0, 0);
   }, [location]);
 
   return (
@@ -26,16 +29,24 @@ function Navbar() {
       <div className="links">
         <ul className='navbar-nav'>
           <li className="nav-item active">
-            <a className="nav-link" href="#"> Home </a>
+            <Link activeClass="active" smooth spy to="about">
+                HOME
+            </Link>
           </li>
           <li className="nav-item active">
-            <a className="nav-link" href="#"> Skills </a>
+            <Link activeClass="active" smooth spy to="skills">
+                SKILLS
+            </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#"> Projects </a>
+            <Link activeClass="active" smooth spy to="projects">
+                PROJECTS
+            </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#"> Experience </a>
+            <Link activeClass="active" smooth spy to="experience">
+                EXPERIENCE
+            </Link>
           </li>
         </ul>
       </div>

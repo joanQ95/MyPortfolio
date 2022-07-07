@@ -9,16 +9,14 @@ import Experience from "./Experience";
 function Home() {
   return (
     <div className="home">
-      <div className="about">
+      <div id="about" className="about">
         <h2> Hi, I'm Joan!</h2>
         <div className="prompt">
           <p>A Full Stack developer / Mechatronic Engineer with a passion for learning and creating.</p>
-          <LinkedInIcon />                                                                                                                                                              
-          <EmailIcon />
-          <GithubIcon />
+          
         </div>
       </div>
-      <div className="skills">
+      <div id="skills" className="skills">
         <h1> Skills</h1>
         <ol className="list">
           <li className="item">

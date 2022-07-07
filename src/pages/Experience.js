@@ -11,7 +11,7 @@ import "../styles/Experience.css";
 
 function Experience() {
   return (
-    <div className="experience">
+    <div id="experience" className="experience">
       <h1> My Experiences</h1>
       <VerticalTimeline lineColor="#3e497a">
         <VerticalTimelineElement
