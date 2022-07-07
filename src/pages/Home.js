@@ -1,10 +1,8 @@
 import React from "react";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import EmailIcon from "@material-ui/icons/Email";
-import GithubIcon from "@material-ui/icons/GitHub";
 import "../styles/Home.css";
 import Projects from "./Projects";
 import Experience from "./Experience";
+import Typed from 'react-typed'
 
 function Home() {
   return (
@@ -13,7 +11,13 @@ function Home() {
         <h2> Hi, I'm Joan!</h2>
         <div className="prompt">
           <p>A Full Stack developer / Mechatronic Engineer with a passion for learning and creating.</p>
-          
+          <Typed
+            className='typed-text'
+            strings={['HTML', 'CSS', 'Javascript', 'React', 'Nodejs', 'Express']}
+            typeSpeed={40}
+            backSpeed={60}
+            loop
+          />
         </div>
       </div>
       <div id="skills" className="skills">

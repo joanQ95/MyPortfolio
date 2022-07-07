@@ -19,7 +19,7 @@ function ProjectDisplay() {
     <div className="project">
       <NavBarAux/>
       <h1> {project.name}</h1>
-      <img src={project.image} />
+      <a target="_blank" href={project.deploy}> <img src={project.image} /> </a>
       <p>
         <b>Skills:</b> {project.skills}
       </p>
