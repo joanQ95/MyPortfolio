@@ -70,13 +70,19 @@
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1200px) {
+  .projects{
+    height: auto;
+  }
   .projectList {
     grid-template-columns: 1fr;
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1200px) {
+  .projects{
+    height: auto;
+  }
   .projectList {
     width: 100%;
   }
