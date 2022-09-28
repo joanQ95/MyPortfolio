@@ -63,7 +63,7 @@
 
 @media only screen and (max-width: 1300px) {
   .projects{
-    height: 100vh;
+    height: auto;
   }
   .projectList {
     grid-template-columns: 1fr 1fr;
