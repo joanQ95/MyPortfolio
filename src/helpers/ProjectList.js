@@ -37,8 +37,8 @@ export const ProjectList = [
     name: "Loopstudios-Landingpage",
     image: Proj5,
     skills: "Python, OpenCV",
-    deploy: '',
-    githubUrl: 'https://github.com/joanQ95/FishCouting'
+    deploy: 'https://joanqc-loopstudios-landingpage.netlify.app/',
+    githubUrl: 'https://github.com/joanQ95/loopstudios-landingpage'
   }
   
 ];
